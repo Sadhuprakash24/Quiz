@@ -1,0 +1,37 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    background-color:#f43265 ;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bolder;
+    
+    
+
+}
+.di:hover{
+    background-color: rgba(0, 255, 115, 0.815);
+    color: black;
+    border: none;
+    border: dashed 5px white;
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 15px;
+}
+label{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+div{
+    padding-top: -10px;
+}
+div:hover{
+    background-color: white;
+    color: black;
+}
+.di{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}

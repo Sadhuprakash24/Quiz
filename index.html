@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <label>Q1.What is the National Anthem of India?</label><br>
+        <div>
+        <input type="radio" name="question1" id="cor1">Jana gana mana<br>
+        <input type="radio" name="question1">Vande matram<br>
+        <input type="radio" name="question1">Chilla chilla<br>
+        <input type="radio" name="question1">Aluma doluma<br>
+       </div>
+        <label>Q2.Who wrote the national anthem, Jana Gana Mana?</label><br>
+       <div>
+        <input type="radio" name="question2" id="cor2">Rabindranath tagore<br>
+        <input type="radio" name="question2">Barathiyar<br>
+        <input type="radio" name="question2">Thiruvalluvar<br>
+        <input type="radio" name="question2">Ajith kumar<br>
+        </div>
+
+        <label>Q3. What is the national song of India?</label><br>
+        <div>
+        <input type="radio" name="question3">Jana gana mana<br>
+        <input type="radio" name="question3" id="cor3">Vande matram<br>
+        <input type="radio" name="question3">Harabick kuthu<br>
+        <input type="radio" name="question3">Machi open the botell<br>
+        </div>
+
+        <label>Q4.Who designed the National Flag of India?</label><br>
+        <div>
+        <input type="radio" name="question4" id="cor4">Pingali venkayya<br>
+        <input type="radio" name="question4">Atlee<br>
+        <input type="radio" name="question4">Shankar<br>
+        <input type="radio" name="question4">Vishnu varathan<br>
+        </div>
+        
+        <label>Q5.Who heads the RBI?</label><br>
+        <div>
+        <input type="radio" name="question5" id="cor5">governor<br>
+        <input type="radio" name="question5">AK<br>
+        <input type="radio" name="question5">Shankar<br>
+        <input type="radio" name="question5">Vishnu varathan<br>
+        </div>
+        
+        <input type="submit" value="submit" class="di" onclick="result()">
+
+       <script type="text/javascript">
+        function result(){
+            var score=0
+            if (document.getElementById("cor1").checked)
+            {
+                score+=1;
+            }
+            if (document.getElementById("cor2").checked)
+            {
+                score+=1;
+            }
+            if (document.getElementById("cor3").checked)
+            {
+                score+=1;
+            }
+            if (document.getElementById("cor4").checked)
+            {
+                score+=1;
+            }
+            if (document.getElementById("cor5").checked)
+            {
+                score+=1;
+            }
+            document.write("your score is:"+score)
+
+        }
+       </script> 
+       
+    </body>
+
+</html>
